@@ -5,10 +5,6 @@ import menuNameData from './menuNameData.json';
 function Menu() {
     return (
         <div className="menu common-flex">
-            <div className="menu-title common-flex">
-                <p>✈️ 여행 카테고리</p>
-            </div>
-            <div style={{display: 'flex'}}>
             {menuNameData.map((menu) => (
                 <div key={menu.id} className="common-menu common-flex">
                     <div className="common-menuName">
@@ -17,7 +13,6 @@ function Menu() {
                     </div>
                 </div>
             ))}
-            </div>
         </div>
     )
 }

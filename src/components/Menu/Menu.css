@@ -1,8 +1,8 @@
 .common-menu {
-    width: 100px;
+    width: 120px;
     height: 60px;
     background-color: white;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.2);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.1);
     margin: 10px;
     padding: 18px 30px 18px 30px;
     border-radius: 15px;
@@ -15,23 +15,19 @@
 }
 .common-menuName .common-menuName-icon {
     margin: 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 20px;
 }
 .common-menuName .common-menuName-text {
     margin: 0;
+    font-size: 15px;
 }
 .menu {
     margin-top: 30px;
-    background-color: blue;
-}
-.menu .menu-title {
-    margin-right: 20px;
-    font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
     .menu {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 }
