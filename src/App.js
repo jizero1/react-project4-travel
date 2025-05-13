@@ -1,9 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-// import Products from './pages/Products/Products';
-// import Cart from './pages/Cart/Cart';
-// import Menu from './components/Menu/Menu';
+import Travel from './pages/Travel/Travel';
 import './App.css';
 
 function App() {
@@ -13,6 +11,7 @@ function App() {
         {/* <Menu /> */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/travel" element={<Travel />}/>
         </Routes>
       </div>
     </Router>
