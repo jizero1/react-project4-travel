@@ -1,0 +1,28 @@
+.searchBar {
+    width: 70%;
+    max-width: 750px;
+    min-width: 380px;
+    height: 52px;
+    margin-top: 80px;
+}
+.common-searchBar {
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.searchBar input {
+    width: 80%;
+    height:100%;
+    margin-right: 15px;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.1);
+}
+.searchBar input:focus {
+    outline: none;
+}
+.searchBar button {
+    width: 70px;
+    height: 100%;
+    background-color: rgb(197, 238, 233);
+}
