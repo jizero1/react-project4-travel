@@ -1,8 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Menu.css';
 import menuNameData from './menuNameData.json';
 
 function Menu() {
+
+    const navigate = useNavigate();
+    
     return (
         <div className="menu common-flex">
             {menuNameData.map((menu) => (
