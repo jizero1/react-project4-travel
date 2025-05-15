@@ -1,0 +1,192 @@
+[
+  {
+    "id": 0,
+    "imgSrc": "/images/travel-osaka.jpg",
+    "imgAlt": "오사카 이미지",
+    "name": "오사카(Osaka)",
+    "country": "일본",
+    "discription": "오사카는 맛집과 쇼핑, 유니버설 스튜디오 등으로 유명한 활기찬 도시입니다.",
+    "bestMonths": "3~5월, 10~11월",
+    "difficulty": "2~3"
+  },
+  {
+    "id": 1,
+    "imgSrc": "/images/travel-fukuoka.jpg",
+    "imgAlt": "후쿠오카 이미지",
+    "name": "후쿠오카(Fukuoka)",
+    "country": "일본",
+    "discription": "후쿠오카는 일본 남부의 항구 도시로, 온천과 쇼핑이 매력적인 지역입니다.",
+    "bestMonths": "3~5월, 9~11월",
+    "difficulty": "1~2"
+  },
+  {
+    "id": 2,
+    "imgSrc": "/images/travel-tokyo.jpg",
+    "imgAlt": "도쿄 이미지",
+    "name": "도쿄(Tokyo)",
+    "country": "일본",
+    "discription": "도쿄는 전통과 현대가 공존하는 일본의 수도이자 대표 도시입니다.",
+    "bestMonths": "3~5월, 10~11월",
+    "difficulty": "3~4"
+  },
+  {
+    "id": 3,
+    "imgSrc": "/images/travel-mongolia.jpg",
+    "imgAlt": "몽골 이미지",
+    "name": "울란바토르(Ulaanbaatar)",
+    "country": "몽골",
+    "discription": "몽골은 광활한 대초원과 유목 문화로 유명한 대자연의 여행지입니다.",
+    "bestMonths": "6~8월",
+    "difficulty": "5~6"
+  },
+  {
+    "id": 4,
+    "imgSrc": "/images/travel-maldives.jpg",
+    "imgAlt": "몰디브 이미지",
+    "name": "몰디브(Maldives)",
+    "country": "몰디브",
+    "discription": "몰디브는 맑은 바다와 수상 리조트로 신혼여행지로 인기 있는 천국 같은 섬입니다.",
+    "bestMonths": "11~4월",
+    "difficulty": "3~4"
+  },
+  {
+    "id": 5,
+    "imgSrc": "/images/travel-danang.jpg",
+    "imgAlt": "다낭 이미지",
+    "name": "다낭(Danang)",
+    "country": "베트남",
+    "discription": "다낭은 아름다운 해변과 근교 도시 호이안, 바나힐로 유명한 휴양도시입니다.",
+    "bestMonths": "3~5월, 9~11월",
+    "difficulty": "2~3"
+  },
+  {
+    "id": 6,
+    "imgSrc": "/images/travel-nhatrang.jpg",
+    "imgAlt": "나트랑 이미지",
+    "name": "나트랑(Nha Trang)",
+    "country": "베트남",
+    "discription": "나트랑은 베트남의 대표 해양 관광지로 스노클링과 리조트가 매력입니다.",
+    "bestMonths": "2~4월",
+    "difficulty": "2~3"
+  },
+  {
+    "id": 7,
+    "imgSrc": "/images/travel-singapore.jpg",
+    "imgAlt": "싱가포르 이미지",
+    "name": "싱가포르(Singapore)",
+    "country": "싱가포르",
+    "discription": "싱가포르는 청결하고 안전한 도시 국가로 쇼핑과 음식 문화가 발달했습니다.",
+    "bestMonths": "2~4월, 11~12월",
+    "difficulty": "1~2"
+  },
+  {
+    "id": 8,
+    "imgSrc": "/images/travel-italy.jpg",
+    "imgAlt": "이탈리아 이미지",
+    "name": "로마(Rome)",
+    "country": "이탈리아",
+    "discription": "로마는 고대 유적과 역사적인 건축물이 가득한 유럽의 대표 관광도시입니다.",
+    "bestMonths": "4~6월, 9~10월",
+    "difficulty": "4~5"
+  },
+  {
+    "id": 9,
+    "imgSrc": "/images/travel-australia.jpg",
+    "imgAlt": "호주 이미지",
+    "name": "시드니(Sydney)",
+    "country": "호주",
+    "discription": "시드니는 오페라 하우스와 아름다운 해변이 어우러진 호주의 대표 도시입니다.",
+    "bestMonths": "3~5월",
+    "difficulty": "3~4"
+  },
+   {
+    "id": 10,
+    "imgSrc": "/images/travel-france.jpg",
+    "imgAlt": "프랑스 이미지",
+    "name": "파리(Paris)",
+    "country": "프랑스",
+    "discription": "파리는 에펠탑과 루브르 박물관 등 낭만적인 명소로 가득한 예술의 도시입니다.",
+    "bestMonths": "4~6월, 9~10월",
+    "difficulty": "4~5"
+  },
+  {
+    "id": 11,
+    "imgSrc": "/images/travel-thailand.jpg",
+    "imgAlt": "태국 이미지",
+    "name": "방콕(Bangkok)",
+    "country": "태국",
+    "discription": "방콕은 활기찬 거리 음식과 사원이 어우러진 동남아 대표 도시입니다.",
+    "bestMonths": "11~2월",
+    "difficulty": "2~3"
+  },
+  {
+    "id": 12,
+    "imgSrc": "/images/travel-usa.jpg",
+    "imgAlt": "미국 이미지",
+    "name": "뉴욕(New York)",
+    "country": "미국",
+    "discription": "뉴욕은 문화, 예술, 경제 중심지로 다이나믹한 매력을 가진 대도시입니다.",
+    "bestMonths": "4~6월, 9~11월",
+    "difficulty": "4~5"
+  },
+  {
+    "id": 13,
+    "imgSrc": "/images/travel-uk.jpg",
+    "imgAlt": "영국 이미지",
+    "name": "런던(London)",
+    "country": "영국",
+    "discription": "런던은 고풍스러운 건축과 현대적인 문화가 조화된 유럽의 핵심 도시입니다.",
+    "bestMonths": "5~7월, 9~10월",
+    "difficulty": "3~4"
+  },
+  {
+    "id": 14,
+    "imgSrc": "/images/travel-spain.jpg",
+    "imgAlt": "스페인 이미지",
+    "name": "바르셀로나(Barcelona)",
+    "country": "스페인",
+    "discription": "바르셀로나는 가우디의 건축물과 해변이 어우러진 활기찬 여행지입니다.",
+    "bestMonths": "4~6월, 9~10월",
+    "difficulty": "3~4"
+  },
+  {
+    "id": 15,
+    "imgSrc": "/images/travel-boracay.jpg",
+    "imgAlt": "보라카이 이미지",
+    "name": "보라카이(Boracay)",
+    "country": "필리핀",
+    "discription": "보라카이는 눈부신 백사장과 에메랄드빛 바다로 유명한 휴양 섬입니다.",
+    "bestMonths": "12~5월",
+    "difficulty": "2~3"
+  },
+  {
+    "id": 16,
+    "imgSrc": "/images/travel-taipei.jpg",
+    "imgAlt": "타이베이 이미지",
+    "name": "타이베이(Taipei)",
+    "country": "대만",
+    "discription": "타이베이는 야시장과 온천, 대만 문화가 살아있는 도시 여행지입니다.",
+    "bestMonths": "10~12월, 3~4월",
+    "difficulty": "2~3"
+  },
+  {
+    "id": 17,
+    "imgSrc": "/images/travel-egypt.jpg",
+    "imgAlt": "이집트 이미지",
+    "name": "카이로(Cairo)",
+    "country": "이집트",
+    "discription": "카이로는 피라미드와 스핑크스 등 고대 문명이 살아 숨 쉬는 역사 여행지입니다.",
+    "bestMonths": "11~3월",
+    "difficulty": "5~6"
+  },
+  {
+    "id": 18,
+    "imgSrc": "/images/travel-dubai.jpg",
+    "imgAlt": "두바이 이미지",
+    "name": "두바이(Dubai)",
+    "country": "아랍에미리트",
+    "discription": "두바이는 초고층 빌딩과 사막 투어, 호화 리조트가 공존하는 미래 도시입니다.",
+    "bestMonths": "11~3월",
+    "difficulty": "3~4"
+  }
+]
