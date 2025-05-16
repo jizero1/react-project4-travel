@@ -4,6 +4,10 @@ import './TravelBanner.css';
 import travelImgData from './travelBanner.json';
 
 function TravelBanner() {
+
+    const navigate = useNavigate();
+
+    // 랜덤으로 배너 변경해야함 
     return (
         <div className="travelBanner">
             <p className="travelBanner-title">어디로 갈지 고민된다면?</p>
