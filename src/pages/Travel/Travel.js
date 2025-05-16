@@ -15,14 +15,22 @@ function Travel() {
         setFilterClickData(data);
         console.log(data);
     }
+
+    // 필터에서 클릭한 숫자에 따라 정렬을 다르게 함
+    const filterData = () => {
+        let data = [...travelData];
+
+        switch (filterClickData) {
+            case 0: // 추천순 정렬
+                return data.sort((a,b) => a.id - b.id);
+            case 1: // 여행 난이도순
+                return data.sort((a,b) => a.difficulty - b.difficulty);
+        }
+    }
     return (
         <div className="travel common-flex">
-            {/* 여행지이름, 사진, 여행추천시기, 강수량, 여행난이도,
-            환율(1달러=1350원), 여행지소개, 주요관광명소, 음식추천,
-            전압 및 콘센트, 여행자 팁(팁문화, 사기조심 하라고 알려주는 등) */}
-            {/* 여행하기 쉽다면 왜 쉬운지(언어,치안, 의료 등등), 여행 목적별 추천하는 시기도 보여줌 */}
             <TravelFilter filterBtnClick={filterBtnClick} />
-            {travelData.map((travel) => (
+            {filterData().map((travel) => (
                 <div key={travel.id} className="travel-card">
                     <img className="travel-img" src={process.env.PUBLIC_URL + travel.imgSrc} alt={travel.imgAlt}></img>
                     <div className="travel-short-discription">
