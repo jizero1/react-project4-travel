@@ -1,18 +1,25 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './TravelBanner.css';
-import travelImgData from './travelBanner.json';
+import travelBanner from './travelBanner.json';
 
 function TravelBanner() {
 
     const navigate = useNavigate();
 
     // 랜덤으로 배너 변경해야함 
+    // 화면이 새로고침 된다면, travelBanner.json의 데이터들중
+    // 랜덤으로 1개를 출력한다. 
+
+    const randomBanner = () => {
+        let random = [...travelBanner];
+
+    }
     return (
         <div className="travelBanner">
             <p className="travelBanner-title">어디로 갈지 고민된다면?</p>
             <div className="travelBanner-container common-flex">
-                {travelImgData.map((travel) => (
+                {travelBanner.map((travel) => (
                     <div key={travel.id} className="travelBanner-container-item">
                         <div className="travelBanner-text">
                             <p className="travelBanner-text-title">{travel.imgAbout}</p>

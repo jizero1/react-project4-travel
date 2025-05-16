@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import { useSearch } from '../../contexts/SearchContext';
 import './SearchBar.css';
 
 function SearchBar() {
-
-    const [inputText, setInputText] = useState('');
+    const { inputText, setInputText } = useSearch();
+    // const [inputText, setInputText] = useState('');
     const navigate = useNavigate();
 
     const searchBtnClick = () => {
@@ -14,6 +14,8 @@ function SearchBar() {
         }
         else {
             navigate('/travel');
+            console.log(inputText);
+            // navigate(`/travel?search=$`)
         }
     }
     return (
