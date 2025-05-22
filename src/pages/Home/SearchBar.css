@@ -40,15 +40,18 @@
     height: 40px;
     /* background-color: pink; */
     margin-top: 12px;
-    position: relative;
+    /* position: relative; */
 }
 
-/* -------------- 추천 검색어 -------------- */
-.searchBar-travelAll-container .searchBar-travelPick {
-    display: flex;
+/* -------------- 추천 검색어 디자인 -------------- */
+.searchBar .searchBar-travelPick {
+    /* display: flex;
     position: absolute;
     left: 35px;
-    align-items: center;
+    align-items: center; */
+    width: 200px;
+    /* background-color: grey; */
+    margin-top: 20px;
 }
 
 .searchBar-travelPick .travelPick-title {
@@ -70,7 +73,9 @@
     font-weight: 700;
     color: rgb(52, 76, 165);
 }
-.searchBar-travelAll-container .searchBar-travelAll {
+
+/* --------------- 해외여행지 전체보기 버튼 디자인 ------------  */
+.searchBar .searchBar-travelAll {
     /* position: absolute; */
     width: 130px;
     height: 25px;
@@ -83,10 +88,8 @@
     font-weight: 500;
     color: rgb(41, 41, 41);
     /* margin-top: 10px; */
-    position: absolute;
-    right: 30px;
 }
-.searchBar-travelAll-container .searchBar-travelAll:hover {
+.searchBar .searchBar-travelAll:hover {
      background-color: rgb(134, 134, 134,0.2);
 }
 

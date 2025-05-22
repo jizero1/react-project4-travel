@@ -45,8 +45,8 @@ function SearchBar() {
                 <button className="searchBtn common-searchBar"
                     onClick={searchBtnClick}>검색</button>
             </div>
-            <div className="searchBar-travelAll-container common-flex">
-                <div className="searchBar-travelPick">
+            {/* <div className="searchBar-travelAll-container common-flex"> */}
+                <div className="searchBar-travelPick common-flex">
                     <p className="travelPick-title">추천 검색어</p>
                     <div className="searchBar-travelPickName">
                         <p onClick={() => travelPick('다낭')}>다낭</p>
@@ -56,7 +56,7 @@ function SearchBar() {
                 </div>
                 <p className="searchBar-travelAll common-flex"
                     onClick={() => { setInputText(''); travelAllView(); }}>해외여행지 전체보기</p>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
