@@ -5,11 +5,10 @@ import Travel from './pages/Travel/Travel';
 import SaveHeart from './pages/SaveHeart/SaveHeart';
 import TravelDetail from './pages/TravelDetail/TravelDetail';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import './App.css';
 import { SearchProvider } from './contexts/SearchContext';
 function App() {
-
-  // const [inputText, setInputText] = useState('');
 
   return (
     <SearchProvider>
@@ -24,6 +23,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Footer />
     </SearchProvider>
   );
 }

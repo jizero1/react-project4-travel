@@ -1,8 +1,37 @@
 [
     {
         "id": 0,
+        "bannerId": 9,
         "imgSrc": "/images/travel-australia.jpg",
         "imgName": "호주",
         "imgAbout": "끝없는 자연과 도시의 조화, 호주에서 자유를 느껴보세요!"
+    },
+    {
+        "id": 1,
+        "bannerId": 0,
+        "imgSrc": "/images/travel-osaka.jpg",
+        "imgName": "오사카",
+        "imgAbout": "맛집과 쇼핑, 전통과 현대가 어우러진 오사카 여행"
+    },
+    {
+        "id": 2,
+        "bannerId": 5,
+        "imgSrc": "/images/travel-danang.jpg",
+        "imgName": "다낭",
+        "imgAbout": "아름다운 해변과 근교 도시 구경으로 힐링하기 좋아요!"
+    },
+    {
+        "id": 3,
+        "bannerId": 1,
+        "imgSrc": "/images/travel-australia.jpg",
+        "imgName": "호주",
+        "imgAbout": "3끝없는 자연과 도시의 조화, 호주에서 자유를 느껴보세요!"
+    },
+    {
+        "id": 4,
+        "bannerId": 14,
+        "imgSrc": "/images/travel-spain.jpg",
+        "imgName": "바르셀로나",
+        "imgAbout": "도시 곳곳에 예술과 낭만이 가득한 도시 바르셀로나"
     }
 ]

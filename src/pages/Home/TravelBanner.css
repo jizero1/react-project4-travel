@@ -2,12 +2,13 @@
     width: 75%;
     max-width: 800px;
     min-width: 380px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .travelBanner .travelBanner-title {
     font-weight: 700;
     font-size: 19px;
+    margin-bottom: 20px;
 }
 
 .travelBanner .travelBanner-container {
