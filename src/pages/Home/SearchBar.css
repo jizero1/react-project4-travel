@@ -1,28 +1,90 @@
 .searchBar {
-    width: 70%;
-    max-width: 750px;
-    min-width: 380px;
-    height: 52px;
+    width: 100%;
+    max-width: 800px;
+    height: 120px;
     margin-top: 130px;
+    flex-direction: column;
+    /* background-color: grey; */
 }
+
+/* input란이랑 옆에 button 공통 디자인  */
 .common-searchBar {
     font-size: 17px;
     border-radius: 15px;
     cursor: pointer;
     border: none;
 }
-.searchBar input {
-    width: 80%;
-    height:100%;
+
+.searchBar .searchBar-input {
+    width: 500px;
+
+    height: 100%;
     margin-right: 15px;
     padding: 0px 20px 0px 20px;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.1);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+    /* margin-bottom: 5px; */
 }
-.searchBar input:focus {
+
+.searchBar .searchBar-input:focus {
     outline: none;
 }
+
 .searchBar .searchBtn {
     width: 70px;
     height: 50px;
     background-color: rgb(197, 238, 233);
+}
+
+.searchBar .searchBar-travelAll-container {
+    width: 80%;
+    height: 40px;
+    /* background-color: pink; */
+    margin-top: 12px;
+    position: relative;
+}
+
+.searchBar-travelAll-container .searchBar-travelPick {
+    display: flex;
+    position: absolute;
+    left: 35px;
+    align-items: center;
+}
+
+.searchBar-travelPick .travelPick-title {
+    font-size: 14px;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.searchBar-travelPick .searchBar-travelPickName {
+    display: flex;
+}
+
+.searchBar-travelPick .searchBar-travelPickName p {
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 14px;
+}
+.searchBar-travelPick .searchBar-travelPickName p:hover {
+    font-weight: 700;
+    color: rgb(52, 76, 165);
+}
+.searchBar-travelAll-container .searchBar-travelAll {
+    /* position: absolute; */
+    width: 130px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+    /* margin-top: 10px; */
+    position: absolute;
+    right: 30px;
+}
+.searchBar-travelAll-container .searchBar-travelAll:hover {
+     background-color: rgb(134, 134, 134,0.2);
 }

@@ -10,9 +10,7 @@ function Home() {
     return (
         <div className="home">
             <SearchBar />
-            {/* <Menu/> */}
-            {/* <TravelCategory/> */}
-            <TravelBanner/>
+            <TravelBanner />
         </div>
     )
 }

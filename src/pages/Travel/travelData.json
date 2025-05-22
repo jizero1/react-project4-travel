@@ -10,7 +10,11 @@
     "difficulty": "2",
     "costLevel": "3",
     "travelMate": "0",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "오사카",
+      "일본"
+    ]
   },
   {
     "id": 1,
@@ -23,7 +27,11 @@
     "difficulty": "1",
     "costLevel": "3",
     "travelMate": "2",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "후쿠오카",
+      "일본"
+    ]
   },
   {
     "id": 2,
@@ -36,7 +44,11 @@
     "difficulty": "3",
     "costLevel": "3",
     "travelMate": "2",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "도쿄",
+      "일본"
+    ]
   },
   {
     "id": 3,
@@ -49,7 +61,11 @@
     "difficulty": "6",
     "costLevel": "2",
     "travelMate": "0",
-    "travelTheme": "0"
+    "travelTheme": "0",
+    "search": [
+      "울란바토르",
+      "몽골"
+    ]
   },
   {
     "id": 4,
@@ -62,7 +78,11 @@
     "difficulty": "4",
     "costLevel": "5",
     "travelMate": "1",
-    "travelTheme": "0"
+    "travelTheme": "0",
+    "search": [
+      "몰디브",
+      "몰디브"
+    ]
   },
   {
     "id": 5,
@@ -75,7 +95,12 @@
     "difficulty": "3",
     "costLevel": "1",
     "travelMate": "0",
-    "travelTheme": "0"
+    "travelTheme": "0",
+    "search": [
+      "다낭",
+      "베트남",
+      "호이안"
+    ]
   },
   {
     "id": 6,
@@ -88,7 +113,12 @@
     "difficulty": "3",
     "costLevel": "1",
     "travelMate": "0",
-    "travelTheme": "0"
+    "travelTheme": "0",
+    "search": [
+      "나트랑",
+      "베트남",
+      "냐짱"
+    ]
   },
   {
     "id": 7,
@@ -101,7 +131,11 @@
     "difficulty": "2",
     "costLevel": "4",
     "travelMate": "0",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "싱가포르",
+      "싱가포르"
+    ]
   },
   {
     "id": 8,
@@ -114,7 +148,11 @@
     "difficulty": "5",
     "costLevel": "5",
     "travelMate": "2",
-    "travelTheme": "1"
+    "travelTheme": "1",
+    "search": [
+      "로마",
+      "이탈리아"
+    ]
   },
   {
     "id": 9,
@@ -127,9 +165,13 @@
     "difficulty": "4",
     "costLevel": "4",
     "travelMate": "0",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "시드니",
+      "호주"
+    ]
   },
-   {
+  {
     "id": 10,
     "imgSrc": "/images/travel-france.jpg",
     "imgAlt": "파리 이미지",
@@ -140,7 +182,11 @@
     "difficulty": "5",
     "costLevel": "5",
     "travelMate": "1",
-    "travelTheme": "1"
+    "travelTheme": "1",
+    "search": [
+      "파리",
+      "프랑스"
+    ]
   },
   {
     "id": 11,
@@ -153,7 +199,11 @@
     "difficulty": "3",
     "costLevel": "1",
     "travelMate": "2",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "방콕",
+      "태국"
+    ]
   },
   {
     "id": 12,
@@ -166,7 +216,11 @@
     "difficulty": "5",
     "costLevel": "5",
     "travelMate": "1",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "뉴욕",
+      "미국"
+    ]
   },
   {
     "id": 13,
@@ -179,7 +233,11 @@
     "difficulty": "4",
     "costLevel": "5",
     "travelMate": "1",
-    "travelTheme": "1"
+    "travelTheme": "1",
+    "search": [
+      "런던",
+      "영국"
+    ]
   },
   {
     "id": 14,
@@ -192,7 +250,11 @@
     "difficulty": "4",
     "costLevel": "4",
     "travelMate": "2",
-    "travelTheme": "1"
+    "travelTheme": "1",
+    "search": [
+      "바르셀로나",
+      "스페인"
+    ]
   },
   {
     "id": 15,
@@ -205,7 +267,11 @@
     "difficulty": "3",
     "costLevel": "1",
     "travelMate": "0",
-    "travelTheme": "0" 
+    "travelTheme": "0",
+    "search": [
+      "보라카이",
+      "필리핀"
+    ]
   },
   {
     "id": 16,
@@ -218,7 +284,11 @@
     "difficulty": "3",
     "costLevel": "2",
     "travelMate": "2",
-    "travelTheme": "2" 
+    "travelTheme": "2",
+    "search": [
+      "타이베이",
+      "대만"
+    ]
   },
   {
     "id": 17,
@@ -231,7 +301,11 @@
     "difficulty": "6",
     "costLevel": "2",
     "travelMate": "2",
-    "travelTheme": "1"
+    "travelTheme": "1",
+    "search": [
+      "카이로",
+      "이집트"
+    ]
   },
   {
     "id": 18,
@@ -244,6 +318,11 @@
     "difficulty": "4",
     "costLevel": "4",
     "travelMate": "1",
-    "travelTheme": "2"
+    "travelTheme": "2",
+    "search": [
+      "두바이",
+      "아랍에미리트",
+      "아랍"
+    ]
   }
 ]
