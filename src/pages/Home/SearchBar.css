@@ -43,6 +43,7 @@
     position: relative;
 }
 
+/* -------------- 추천 검색어 -------------- */
 .searchBar-travelAll-container .searchBar-travelPick {
     display: flex;
     position: absolute;
@@ -87,4 +88,12 @@
 }
 .searchBar-travelAll-container .searchBar-travelAll:hover {
      background-color: rgb(134, 134, 134,0.2);
+}
+
+
+@media screen and (max-width: 768px) {
+.searchBar .searchBar-input {
+    width: 250px;
+}
+
 }

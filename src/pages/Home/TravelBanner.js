@@ -27,8 +27,7 @@ function TravelBanner() {
     }
 
     return (
-        <div className="travelBanner">
-            <p className="travelBanner-title">어디로 갈지 고민된다면?</p>
+        <div className="travelBanner common-flex">
             <div className="travelBanner-container common-flex">
                 {randomBanner().map((travel) => (
                     <div key={travel.id} className="travelBanner-container-item" onClick={() => bannerClick(travel.bannerId)}>

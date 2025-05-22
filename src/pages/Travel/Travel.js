@@ -62,7 +62,6 @@ function Travel() {
         }
 
         // 사용자가 입력한 여행지와 일치하는 여행지만 찾아서 필터링함
-
         if (inputText && inputText.trim() !== "") {
             data = data.filter(item =>
                 item.search.some(keyword =>
